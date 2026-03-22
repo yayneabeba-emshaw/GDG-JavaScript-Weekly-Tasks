@@ -1,0 +1,23 @@
+body {
+  box-sizing: border-box;
+  background-color: rgb(130, 196, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+button {
+  width: 170px;
+  height: 80px;
+  font-size: 25px;
+}
+button:hover {
+  background-color: rgb(211, 21, 65);
+  color: rgba(255, 255, 255, 0.942);
+}
